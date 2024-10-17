@@ -1,0 +1,132 @@
+/* General Reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Arial", sans-serif;
+  line-height: 1.6;
+  background-color: #f0f4f8;
+  color: #333;
+  padding: 20px;
+}
+
+/* Container */
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+/* Section Styles */
+section {
+  background: #fff;
+  padding: 30px;
+  border-radius: 8px;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+  margin-bottom: 20px;
+  text-align: center; /* Căn giữa nội dung */
+}
+
+/* Heading Styles */
+h1 {
+  font-size: 2.5em;
+  margin-bottom: 15px;
+  color: #2c3e50;
+  border-bottom: 2px solid #2980b9;
+  padding-bottom: 10px;
+}
+
+h2 {
+  font-size: 2em;
+  margin: 20px 0 10px;
+  color: #e74c3c;
+}
+
+h3 {
+  font-size: 1.6em;
+  margin: 15px 0 10px;
+  color: #3498db;
+}
+
+/* Image Styles */
+img {
+  max-width: 100%; /* Căn giữa ảnh */
+  height: auto;
+  border-radius: 8px;
+  margin: 10px 0;
+  transition: transform 0.3s;
+}
+
+img:first-of-type {
+  max-width: 100%; /* Ảnh đầu không thay đổi kích thước */
+}
+
+img:not(:first-of-type) {
+  max-width: 70%; /* Ảnh nhỏ hơn 70% */
+}
+
+img:hover {
+  transform: scale(1.05);
+}
+
+/* Paragraph Styles */
+p {
+  margin-bottom: 15px;
+  line-height: 1.8;
+}
+
+/* List Styles */
+ul {
+  margin: 10px 0;
+  padding-left: 20px;
+}
+
+li {
+  margin-bottom: 5px;
+}
+
+/* Link Styles */
+a {
+  color: #2980b9;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+/* Footer Styles */
+footer {
+  text-align: center;
+  margin-top: 20px;
+  font-size: 0.9em;
+  color: #777;
+}
+
+/* Button Styles */
+.button {
+  display: inline-block;
+  background-color: #3498db;
+  color: white;
+  padding: 10px 20px;
+  border-radius: 5px;
+  text-decoration: none;
+  transition: background-color 0.3s;
+  margin-top: 15px; /* Thêm khoảng cách cho nút */
+}
+
+.button:hover {
+  background-color: #2980b9;
+}
+
+/* Additional Style for a Quote */
+blockquote {
+  font-style: italic;
+  margin: 20px 0;
+  padding: 10px;
+  background: #f9f9f9;
+  border-left: 5px solid #2980b9;
+}
