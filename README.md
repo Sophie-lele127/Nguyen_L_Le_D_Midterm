@@ -72,4 +72,4 @@ Developing and maintaining AI systems require significant resources, including h
 
 ![Overdependence on AI](images/Overdepend%20on%20AI.webp)
 
-Humans may increasingly rely on AI to solve every problem, leading to a loss of independent thinking. When people stop making decisions on their own and merely follow AI's suggestions, they may lose creativity or critical thinking skills.~
+Humans may increasingly rely on AI to solve every problem, leading to a loss of independent thinking. When people stop making decisions on their own and merely follow AI's suggestions, they may lose creativity or critical thinking skills!
